@@ -5,8 +5,8 @@
 	include("config.php");
 	//pour inclure nos librairies composer
 	include("vendor/autoload.php");
-	include("functions.php");
-	include("db.php");
+	include("fonctions.php");
+	include("db_connexion.php");
 
 	//tester la soumission du formulaire avec un print_r()
 	$error = "";
