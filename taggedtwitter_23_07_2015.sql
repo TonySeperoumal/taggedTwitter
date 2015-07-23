@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 23 Juillet 2015 à 14:46
+-- Généré le :  Jeu 23 Juillet 2015 à 15:34
 -- Version du serveur :  5.6.24
 -- Version de PHP :  5.6.8
 
@@ -19,16 +19,14 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `taggedtwitter`
 --
-CREATE DATABASE IF NOT EXISTS `taggedtwitter` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `taggedtwitter`;
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `tagg_id`
+-- Structure de la table `tag_id`
 --
 
-CREATE TABLE IF NOT EXISTS `tagg_id` (
+CREATE TABLE IF NOT EXISTS `tag_id` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `date_created` datetime NOT NULL,
@@ -43,6 +41,8 @@ CREATE TABLE IF NOT EXISTS `tagg_id` (
 
 CREATE TABLE IF NOT EXISTS `tweet_id` (
   `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `tag_id` int(11) NOT NULL,
   `messages` varchar(140) NOT NULL,
   `date_created` datetime NOT NULL,
   `date_modified` datetime NOT NULL
@@ -64,16 +64,24 @@ CREATE TABLE IF NOT EXISTS `users` (
   `tagg` int(11) NOT NULL,
   `date_created` datetime NOT NULL,
   `date_modified` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `email`, `password`, `token`, `tweet`, `tagg`, `date_created`, `date_modified`) VALUES
+(2, 'Bla', 'blablabla@gmail.com', '$2y$10$mUIeO0ioxQAb/x4NmPnma.GX57YbYD5lbcfD8rwpGkaqMECBK19ra', '', 0, 0, '2015-07-23 15:10:10', '2015-07-23 15:10:10'),
+(3, 'Tony', 'seper@gmail.com', '$2y$10$tUOV7GyjO0Mr9406jLVpDOqbqz4yOmO3XTKGZoteaMD3sM0FQeH3O', '', 0, 0, '2015-07-23 15:31:44', '2015-07-23 15:31:44');
 
 --
 -- Index pour les tables exportées
 --
 
 --
--- Index pour la table `tagg_id`
+-- Index pour la table `tag_id`
 --
-ALTER TABLE `tagg_id`
+ALTER TABLE `tag_id`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -93,9 +101,9 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT pour la table `tagg_id`
+-- AUTO_INCREMENT pour la table `tag_id`
 --
-ALTER TABLE `tagg_id`
+ALTER TABLE `tag_id`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT pour la table `tweet_id`
@@ -106,7 +114,7 @@ ALTER TABLE `tweet_id`
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
