@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 23 Juillet 2015 à 14:32
+-- Généré le :  Jeu 23 Juillet 2015 à 14:46
 -- Version du serveur :  5.6.24
 -- Version de PHP :  5.6.8
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `taggedtwitter`
 --
+CREATE DATABASE IF NOT EXISTS `taggedtwitter` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `taggedtwitter`;
 
 -- --------------------------------------------------------
 
