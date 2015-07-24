@@ -1,9 +1,10 @@
 <?php
-	
+	session_start();
 	include('config.php');
 	include('db_connexion.php');
 	include('fonctions.php');
-
+	include('vendor/autoload.php');
+	pr($_SESSION['user']);
 	$messages = "";
 	$errorMessages = "";
 
@@ -18,10 +19,11 @@
 			$errorTweet = "Votre message doit avoir entre 2 et 140 caractères !";
 		}
 		if ($errorMessages == ""){
-			$sql = "INSERT INTO tweets(id, messages, date_created, date_modified)
-					VALUES (NULL, :messages, NOW(), NOW())";
+			$sql = "INSERT INTO tweets(id, user_id, messages, date_created, date_modified)
+					VALUES (NULL, :user_id, :messages, NOW(), NOW())";
 			$sth = $dbh->prepare($sql);
 			$sth->bindValue(':messages', $messages);
+			$sth->bindValue(':user_id', $_SESSION['user']['id']);
 			$sth->execute();
 		}	
 
@@ -37,6 +39,13 @@
 	$tweets = $sth->fetchAll();
 	
 	// pr($tweets);
+
+	$sql = "SELECT users.username, tweets.messages
+			FROM users
+			LEFT JOIN tweets
+			ON users.id = tweets.user_id";
+	$sth = $dbh->prepare($sql);
+	$sth -> execute();
 	
 	
 

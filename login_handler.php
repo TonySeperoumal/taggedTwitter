@@ -34,7 +34,7 @@
 		if ($isValidPassword){
 			unset($foundUser['password']);
 			$_SESSION['user'] = $foundUser;
-			header('location: protected_page.php');
+			header('location: home.php');
 			die();
 		}
 		else{			

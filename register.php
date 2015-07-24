@@ -143,7 +143,7 @@
 			//on met l'array dans la session pour connecter le user
 			$_SESSION['user'] = $user;
 			//puis on redirige vers la page protégée
-			header("Location: https://www.google.fr");
+			header("Location: home.php");
 			die();
 
 		}
