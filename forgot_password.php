@@ -62,7 +62,7 @@
 
 					//qui envoie, et qui reçoit
 					$mail->setFrom('tony.wf3.nanterre@gmail.com', 'Tony-Administrateur');
-					$mail->addAddress('fred-paris@gmail.com', 'Fred');
+					$mail->addAddress('fred.wf3@gmail.com', 'Fred');
 					$mail->addAddress($email, $user['username']);
 
 					$mail->Subject = 'Mot de passe oublié';
