@@ -3,7 +3,7 @@
 	session_start();
 
 	include("config.php");
-	include("db.php");
+	include("db_connexion.php");
 	include("fonctions.php");
 	include("vendor/autoload.php");
 
