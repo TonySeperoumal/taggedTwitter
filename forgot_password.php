@@ -61,7 +61,7 @@
 					$mail = getConfiguredMailer();
 
 					//qui envoie, et qui reçoit
-					$mail->setFrom('tony.wf3.nanterre@gmail.com', 'Tony-Administrateur');
+					$mail->setFrom('accounts@wf3-auth.com', 'WF3 Auth');
 					$mail->addAddress('fred.wf3@gmail.com', 'Fred');
 					$mail->addAddress($email, $user['username']);
 

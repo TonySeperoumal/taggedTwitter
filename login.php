@@ -1,12 +1,11 @@
 <?php
+
 	session_start();
 	include('config.php');
 	include('db_connexion.php');
 	include('fonctions.php');
 
 	
-
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -26,7 +25,7 @@
 			<button type="submit">Envoyer</button><br />
 			<input type="checkbox" name="remember" id="remember" value="1">Restez connecté
 
-			<a href="forgot_password_2.php">Mot de passe oublié</a>
+			<a href="forgot_password.php">Mot de passe oublié</a>
 		</form>
 		<?php
 			//si on a stocké un message d'erreur (dans login_handler.php)
