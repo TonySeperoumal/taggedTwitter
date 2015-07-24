@@ -110,7 +110,7 @@
 		if (empty($error)){
 			//insert dans la table users
 			$sql = "INSERT INTO users (id, email, username, password, date_created, date_modified) 
-					VALUES (NULL, :email, :username, :password, NOW(), NULL)";
+					VALUES (NULL, :email, :username, :password, NOW(), NOW())";
 
 			$sth = $dbh->prepare($sql);
 
@@ -130,6 +130,7 @@
 			//connecter l'utilisateur programmatiquement
 			//on va rechercher toutes les infos qu'on vient d'insérer (sans le MdP)
 			//afin qu'elles soient structurées comme sur la page de login
+
 			$sql = "SELECT id, email, username, date_created, date_modified 
 					FROM users 
 					WHERE id = :id";
@@ -144,6 +145,7 @@
 			//puis on redirige vers la page protégée
 			header("Location: https://www.google.fr");
 			die();
+
 		}
 	}
 ?>
