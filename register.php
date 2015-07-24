@@ -89,20 +89,20 @@
 		elseif(strlen($password) <= 6){
 			$error = "Veuillez saisir un mot de passe d'au moins 7 caractères !";
 		}
-		// else {
-		// 	//le mot de passe contient au moins une lettre ?
-		// 	$containsLetter  = preg_match('/[a-zA-Z]/', $password);
-		// 	//le mot de passe contient au moins un chiffre ?
-		// 	$containsDigit   = preg_match('/\d/', $password);
-		// 	//le mot de passe contient au moins un autre caractère ?
-		// 	$containsSpecial = preg_match('/[^a-zA-Z\d]/', $password);
+		else {
+			//le mot de passe contient au moins une lettre ?
+			$containsLetter  = preg_match('/[a-zA-Z]/', $password);
+			//le mot de passe contient au moins un chiffre ?
+			$containsDigit   = preg_match('/\d/', $password);
+			//le mot de passe contient au moins un autre caractère ?
+			$containsSpecial = preg_match('/[^a-zA-Z\d]/', $password);
 
-		// 	//si une des conditions n'est pas remplie... erreur
-		// 	if (!$containsLetter || !$containsDigit || !$containsSpecial){
-		// 		$error = "Veuillez choisir un mot de passe avec au moins une lettre, 
-		// 				un chiffre et un caractère spécial.";
-		// 	}
-		// }
+			//si une des conditions n'est pas remplie... erreur
+			if (!$containsLetter || !$containsDigit || !$containsSpecial){
+				$error = "Veuillez choisir un mot de passe avec au moins une lettre, 
+						un chiffre et un caractère spécial.";
+			}
+		}
 
 
 		//si on n'a pas d'erreur 
@@ -142,7 +142,7 @@
 			//on met l'array dans la session pour connecter le user
 			$_SESSION['user'] = $user;
 			//puis on redirige vers la page protégée
-			header("Location: profile.php");
+			header("Location: https://www.google.fr");
 			die();
 		}
 	}

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>taggedTwitter/taggedtwitter_23_07_2015.sql at master · TonySeperoumal/taggedTwitter</title>
+    <title>taggedTwitter/taggedtwitter_24_07_2015.sql at master · TonySeperoumal/taggedTwitter</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -24,7 +24,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTMzNzc1MjY6NWU3Y2NhNDA3NWNlMDg3NzIxNWIzODE4YjBkYTZkZjE6MjdmMzAwOWUyYmJlZGI2MDY3ODY3YTFlN2JkZTZhMzQxYTQ3OWY0ZGZkNGU1MTMxNTg1ZWZmNTc1Y2Y2MDY4Yg==--7f278ff5710ff4c63f99a692018939bd2ba12505">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTMzNzc1MjY6NWU3Y2NhNDA3NWNlMDg3NzIxNWIzODE4YjBkYTZkZjE6NzkyZjdjMjU1MDMxMTU5MzQ4YTllMmRlZmRkNmI0ZTZlODUwZjBjYmE1Mzc0ZDg3YmI0Y2ZmZGJmNjA5YzMwMg==--bd5445d54d1ae5da59a47560ccc9b9a24cd9ff64">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -34,7 +34,7 @@
 
         <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="5D1F3B77:411E:2BEC368:55B20D9F" name="octolytics-dimension-request_id" /><meta content="13377526" name="octolytics-actor-id" /><meta content="TonySeperoumal" name="octolytics-actor-login" /><meta content="ac9849ac543dc8d22f7b0335460c1012b4b289e6e1dbe1664dcea2a9a85a2b63" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="5D1F3B77:667B:3ADA726:55B20F08" name="octolytics-dimension-request_id" /><meta content="13377526" name="octolytics-actor-id" /><meta content="TonySeperoumal" name="octolytics-actor-login" /><meta content="ac9849ac543dc8d22f7b0335460c1012b4b289e6e1dbe1664dcea2a9a85a2b63" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -49,7 +49,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="9BGLR+92JtJX/xaZUNAAXabLSgq+duYGpQ0LktVaZJNXo1pyFHyxAUAJ4BRjHbsL4EgA1SkBIaNqHOV2Xo9M4Q==" name="csrf-token" />
+<meta content="oE1tB3Kd8GExg/bhYj0/CDmDkFdTF7CR5Zi8Xf+yvz5rX7lUQ4o9IPns57hBibiKJrzFVmcWJZyRjKvtG7eMSA==" name="csrf-token" />
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-2de9f2a0dcbebdb929c6fddf7fd94aa06a736743201b9c57db4c19cb74757211.css" media="all" rel="stylesheet" />
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-6a4b097e06fb1fd1bd18e4b4724ac1325ad4f77baef250031725a4eb9735b72a.css" media="all" rel="stylesheet" />
@@ -200,7 +200,7 @@
           Settings
         </a>
 
-        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VxAXdoeYAL2GGlMi5mAUUK0e5NLftlU5awYDA0Nc85AC/UU8xoYkhhBawSYDFq8nW9YdCkAkXBNyQVtIAbYLMQ==" /></div>
+        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="L8RU3woCWPwpJBZ5RSy+h4X7lzXkXg82+kKAEuYO5JaGbJo2mxRPyPLmoiaSgmyplWmagTggBxJkRRaz+9Riag==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -232,7 +232,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZCRahN0Dw3Ff3Ki8K7wEG37orM1yPyzQE6pU7gUYQEN+TFrbf5TnFwarfHORx3O87rubI8y9JfO49cyE+9S3iw==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="39560486" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Z87yXs7qJ4CqJnNj6BQHLxAb7urapxOcSWIR0R5gAV6j7ZKJELjhIzFA1lkE8e8mti3yT1WH0vtawRdvAknHqg==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="39560486" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/TonySeperoumal/taggedTwitter/subscription"
@@ -307,7 +307,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="L81zXPO/o7jVLZX/FsKW2B0l7kSEaVdtwjAsM4mjCHTyem2h8jBh4zUYqrp9W7GbpR06bAb1E4INStOPCjZvxw==" /></div>
+    <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="om5NsHBEIkqGL7GCyHfPDxSUiEQYdkkeimxfmpzzD9AoySl+WdJL/3wvcvnnLoaFQ+0VscXQtF/i0XwQ7C+z8Q==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar TonySeperoumal/taggedTwitter"
@@ -319,7 +319,7 @@
           0
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Qr6Fcgqhl6qHIphMCN8nDnhFyN2I+wUTqZV72DGtR9HlJZssTz4j2H9faZnl0l3RhEdgsCTIsT9gLLJcjV0ZlQ==" /></div>
+    <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="LUOzODQQHMDx4Gmyy2xfTlMmYRF5Aj3QZuxFT77Pfr0wow8jYME01FYvXisf2RKHtQ+rfImLBIwNVd7FpXHJBQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star TonySeperoumal/taggedTwitter"
@@ -335,7 +335,7 @@
   </li>
 
         <li>
-          <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="la31rw9v2Vb+nxsGGD4rxffTQZTs2mkNpMt4x1TjUvwjdpjCA7tpS+45QqDmi6vfkCDWTMXieIucMewe8WlclA==" /></div>
+          <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AvT97to3QK2vzI38yVmBNQO7chYAtxhMaHLCqOCBo59xjJ0Maql1LJCgG2DLgVE1H93BNr5lVR68rEBDvFfH0A==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -472,7 +472,7 @@
 
 
   <div class="clone-options">You can clone with
-    <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="G/LHa0XVbqo32HkRuvFRZedaN35M1E92PKnABCIMugbWig38/w08Zh8LKWf577G0aa6GbxTnCsxKCDuTP9HGXQ==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ImxaYm7LEsNkRwaQDSyF+yyi2TMvdGrL++fXBIcFJHOAfb2okSH0NwAFM1qHWp1XWgNy1zJB/Osuz3qAYDbmcg==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QltynWOvhr+VoLkv5Rf2KmOetKeVx2UZyMYpzZLMuSvWOleeLJ3sa9nVLSiFnwVi9WuA/AmvMQtQgmw/fD5AiA==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wRyrD3orOMYuRhTgu+D5aqPdF2jh4kb62T59oLkCIK0oe3bWjs3YVxv+UznJhhIgwUxdTk89tEGK0S57rbUVSw==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="iYvbNuqH5j3+UtxRPAUidBGuIWUnuq6fO9LzpQdiJ5E5ujmWRICGfts8Gv9EP1CyuA48uvaHMKGABHaukai7VQ==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="DJ+4M7mL0K1mfUFYUVODp9lq22WwKhfZ71655+SeSwgLCm3L83aTyAiKFY5+Eur9unryCaO2rxxkIsP2R6PVlg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
     <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
       <span class="octicon octicon-question"></span>
     </a>
@@ -497,9 +497,9 @@
 
             
 
-<a href="/TonySeperoumal/taggedTwitter/blob/8b15d601d8ec3725f8f09c7fa174503c2409d575/taggedtwitter_23_07_2015.sql" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/TonySeperoumal/taggedTwitter/blob/0371c319bc1563072d541951ac2fe01e6a3b6225/taggedtwitter_24_07_2015.sql" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:d79a369a69f33ad768f06b2ee359c555 -->
+<!-- blob contrib key: blob_contributors:v21:ee848f75d3c203385666f82b36623632 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -542,7 +542,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/TonySeperoumal/taggedTwitter/blob/master/taggedtwitter_23_07_2015.sql"
+               href="/TonySeperoumal/taggedTwitter/blob/master/taggedtwitter_24_07_2015.sql"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -553,7 +553,7 @@
             </a>
         </div>
 
-          <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lQK93rH7nCsCw9yFZMbZP+6Q02PTSCYnOBCdOKmHg1ZsfvsmnoMYnwpmjG0QB+dMs7D7HV6AJe/5A9kul1FmjA==" /></div>
+          <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="pWrrI9OjNixtDJ9JLBPOEOMn9pc8I37oEui6p6y3vj5Ma97A4mNiT0jQLGdAbJUM3Su5PFRxplGZjXNkDzhBbg==" /></div>
             <span class="octicon octicon-git-branch select-menu-item-icon"></span>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -561,7 +561,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="taggedtwitter_23_07_2015.sql">
+            <input type="hidden" name="path" id="path" value="taggedtwitter_24_07_2015.sql">
 </form>
       </div>
 
@@ -590,80 +590,52 @@
     </div>
 
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/TonySeperoumal/taggedTwitter" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">taggedTwitter</span></a></span></span><span class="separator">/</span><strong class="final-path">taggedtwitter_23_07_2015.sql</strong>
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/TonySeperoumal/taggedTwitter" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">taggedTwitter</span></a></span></span><span class="separator">/</span><strong class="final-path">taggedtwitter_24_07_2015.sql</strong>
     </div>
   </div>
 
-
-  <div class="commit file-history-tease">
-    <div class="file-history-tease-header">
-        <img alt="@fred-paris" class="avatar" height="24" src="https://avatars1.githubusercontent.com/u/13377564?v=3&amp;s=48" width="24" />
-        <span class="author"><a href="/fred-paris" rel="contributor">fred-paris</a></span>
-        <time datetime="2015-07-23T13:41:18Z" is="relative-time">Jul 23, 2015</time>
-        <div class="commit-title">
-            <a href="/TonySeperoumal/taggedTwitter/commit/3fff4262763921c081b17f2c80160c23feac0b23" class="message" data-pjax="true" title="Add 2 new columns in tweet_id">Add 2 new columns in tweet_id</a>
-        </div>
-    </div>
-
-    <div class="participation">
-      <p class="quickstat">
-        <a href="#blob_contributors_box" rel="facebox">
-          <strong>2</strong>
-           contributors
-        </a>
-      </p>
-          <a class="avatar-link tooltipped tooltipped-s" aria-label="TonySeperoumal" href="/TonySeperoumal/taggedTwitter/commits/master/taggedtwitter_23_07_2015.sql?author=TonySeperoumal"><img alt="@TonySeperoumal" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/13377526?v=3&amp;s=40" width="20" /> </a>
-    <a class="avatar-link tooltipped tooltipped-s" aria-label="fred-paris" href="/TonySeperoumal/taggedTwitter/commits/master/taggedtwitter_23_07_2015.sql?author=fred-paris"><img alt="@fred-paris" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/13377564?v=3&amp;s=40" width="20" /> </a>
-
-
-    </div>
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list">
-          <li class="facebox-user-list-item">
-            <img alt="@TonySeperoumal" height="24" src="https://avatars2.githubusercontent.com/u/13377526?v=3&amp;s=48" width="24" />
-            <a href="/TonySeperoumal">TonySeperoumal</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="@fred-paris" height="24" src="https://avatars1.githubusercontent.com/u/13377564?v=3&amp;s=48" width="24" />
-            <a href="/fred-paris">fred-paris</a>
-          </li>
-      </ul>
-    </div>
+<include-fragment class="commit commit-loader file-history-tease" src="/TonySeperoumal/taggedTwitter/contributors/master/taggedtwitter_24_07_2015.sql">
+  <div class="file-history-tease-header">
+    Fetching contributors&hellip;
   </div>
 
+  <div class="participation">
+    <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
+    <p class="loader-error">Cannot retrieve contributors at this time</p>
+  </div>
+</include-fragment>
 <div class="file">
   <div class="file-header">
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/TonySeperoumal/taggedTwitter/raw/master/taggedtwitter_23_07_2015.sql" class="btn btn-sm " id="raw-url">Raw</a>
-          <a href="/TonySeperoumal/taggedTwitter/blame/master/taggedtwitter_23_07_2015.sql" class="btn btn-sm js-update-url-with-hash">Blame</a>
-        <a href="/TonySeperoumal/taggedTwitter/commits/master/taggedtwitter_23_07_2015.sql" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/TonySeperoumal/taggedTwitter/raw/master/taggedtwitter_24_07_2015.sql" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/TonySeperoumal/taggedTwitter/blame/master/taggedtwitter_24_07_2015.sql" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/TonySeperoumal/taggedTwitter/commits/master/taggedtwitter_24_07_2015.sql" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
         <a class="octicon-btn tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/TonySeperoumal/taggedTwitter?branch=master&amp;filepath=taggedtwitter_23_07_2015.sql"
+           href="github-windows://openRepo/https://github.com/TonySeperoumal/taggedTwitter?branch=master&amp;filepath=taggedtwitter_24_07_2015.sql"
            aria-label="Open this file in GitHub for Windows"
            data-ga-click="Repository, open with desktop, type:windows">
             <span class="octicon octicon-device-desktop"></span>
         </a>
 
-            <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/edit/master/taggedtwitter_23_07_2015.sql" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="woYqVxUs2BDQ9RiIEbrXO9JPstNuEOnc/BQCS9FldQwnZ7L24ynnKWqSFJWFXa9zqUAJ0PP6ew0C0PSix+bw3A==" /></div>
+            <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/edit/master/taggedtwitter_24_07_2015.sql" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Qa8ys8C3ICJKHOVRBpHLpMthJqurSodba1brtIbDnv0MBF9thl1VIcoRR3VpVpnXLpRQgqOASo3s86eRdwFtFQ==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Edit this file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/delete/master/taggedtwitter_23_07_2015.sql" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="oaiMrLHCpTSdMCPmTDVlrJ8URQWii5c26crGIIYaVp9f35MOIgWBA/6wX4fLXCGhe+D6DQKD3z9pshxflmge8g==" /></div>
+          <form accept-charset="UTF-8" action="/TonySeperoumal/taggedTwitter/delete/master/taggedtwitter_24_07_2015.sql" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0fCR32rAGcQUIfsO3nEPs6zoTappKX9SkB90NxLxWbA9acQpS8LsE2zP23FyauydZ/Nx79097b46sHtKyOyw+A==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
 </form>    </div>
 
     <div class="file-info">
-        121 lines (99 sloc)
+        123 lines (101 sloc)
         <span class="file-info-divider"></span>
-      3.098 kB
+      3.217 kB
     </div>
   </div>
   
@@ -692,7 +664,7 @@
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Généré le :  Jeu 23 Juillet 2015 à 15:34</span></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Généré le :  Ven 24 Juillet 2015 à 12:08</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
@@ -760,12 +732,11 @@
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-k">CREATE</span> <span class="pl-k">DATABASE</span> <span class="pl-en">IF</span> NOT EXISTS <span class="pl-s"><span class="pl-pds">`</span>taggedtwitter<span class="pl-pds">`</span></span> DEFAULT CHARACTER <span class="pl-k">SET</span> utf8 COLLATE utf8_general_ci;</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- --------------------------------------------------------</span></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">USE <span class="pl-s"><span class="pl-pds">`</span>taggedtwitter<span class="pl-pds">`</span></span>;</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
@@ -774,11 +745,12 @@
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- --------------------------------------------------------</span></td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Structure de la table `tag_id`</span></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
@@ -786,41 +758,40 @@
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Structure de la table `tag_id`</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-k">CREATE</span> <span class="pl-k">TABLE</span> <span class="pl-en">IF</span> NOT EXISTS <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span> (</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>name<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">100</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span></td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">) ENGINE<span class="pl-k">=</span>InnoDB DEFAULT CHARSET<span class="pl-k">=</span>utf8;</td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-k">CREATE</span> <span class="pl-k">TABLE</span> <span class="pl-en">IF</span> NOT EXISTS <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span> (</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>name<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">100</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span></td>
+      </tr>
+      <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- --------------------------------------------------------</span></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">) ENGINE<span class="pl-k">=</span>InnoDB DEFAULT CHARSET<span class="pl-k">=</span>utf8;</td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
@@ -829,11 +800,12 @@
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- --------------------------------------------------------</span></td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Structure de la table `tweet_id`</span></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
@@ -841,49 +813,48 @@
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Structure de la table `tweet_id`</span></td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-k">CREATE</span> <span class="pl-k">TABLE</span> <span class="pl-en">IF</span> NOT EXISTS <span class="pl-s"><span class="pl-pds">`</span>tweet_id<span class="pl-pds">`</span></span> (</td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>user_id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>messages<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">140</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span></td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">) ENGINE<span class="pl-k">=</span>InnoDB DEFAULT CHARSET<span class="pl-k">=</span>utf8;</td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-k">CREATE</span> <span class="pl-k">TABLE</span> <span class="pl-en">IF</span> NOT EXISTS <span class="pl-s"><span class="pl-pds">`</span>tweet_id<span class="pl-pds">`</span></span> (</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>user_id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>messages<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">140</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span></td>
+      </tr>
+      <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- --------------------------------------------------------</span></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">) ENGINE<span class="pl-k">=</span>InnoDB DEFAULT CHARSET<span class="pl-k">=</span>utf8;</td>
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
@@ -892,11 +863,12 @@
       </tr>
       <tr>
         <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- --------------------------------------------------------</span></td>
       </tr>
       <tr>
         <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Structure de la table `users`</span></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
@@ -904,65 +876,65 @@
       </tr>
       <tr>
         <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Structure de la table `users`</span></td>
       </tr>
       <tr>
         <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-k">CREATE</span> <span class="pl-k">TABLE</span> <span class="pl-en">IF</span> NOT EXISTS <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span> (</td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>username<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">255</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>email<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">100</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>password<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">100</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>token<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">32</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>tweet<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>tagg<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span></td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">) ENGINE<span class="pl-k">=</span>InnoDB AUTO_INCREMENT<span class="pl-k">=</span><span class="pl-c1">4</span> DEFAULT CHARSET<span class="pl-k">=</span>utf8;</td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line"><span class="pl-k">CREATE</span> <span class="pl-k">TABLE</span> <span class="pl-en">IF</span> NOT EXISTS <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span> (</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>username<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">255</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>email<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">100</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>password<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">100</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>token<span class="pl-pds">`</span></span> <span class="pl-k">varchar</span>(<span class="pl-c1">32</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>tweet<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>tagg<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span>,</td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span> datetime <span class="pl-k">NOT NULL</span></td>
+      </tr>
+      <tr>
         <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">) ENGINE<span class="pl-k">=</span>InnoDB AUTO_INCREMENT<span class="pl-k">=</span><span class="pl-c1">4</span> DEFAULT CHARSET<span class="pl-k">=</span>utf8;</td>
       </tr>
       <tr>
         <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Contenu de la table `users`</span></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
@@ -970,33 +942,33 @@
       </tr>
       <tr>
         <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Contenu de la table `users`</span></td>
       </tr>
       <tr>
         <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line"><span class="pl-k">INSERT INTO</span> <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>username<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>email<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>password<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>token<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>tweet<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>tagg<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span>) <span class="pl-k">VALUES</span></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">(<span class="pl-c1">2</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Bla<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>blablabla@gmail.com<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>$2y$10$mUIeO0ioxQAb/x4NmPnma.GX57YbYD5lbcfD8rwpGkaqMECBK19ra<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:10:10<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:10:10<span class="pl-pds">&#39;</span></span>),</td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">(<span class="pl-c1">3</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Tony<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>seper@gmail.com<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>$2y$10$tUOV7GyjO0Mr9406jLVpDOqbqz4yOmO3XTKGZoteaMD3sM0FQeH3O<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:31:44<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:31:44<span class="pl-pds">&#39;</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line"><span class="pl-k">INSERT INTO</span> <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>username<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>email<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>password<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>token<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>tweet<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>tagg<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>date_created<span class="pl-pds">`</span></span>, <span class="pl-s"><span class="pl-pds">`</span>date_modified<span class="pl-pds">`</span></span>) <span class="pl-k">VALUES</span></td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">(<span class="pl-c1">2</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Bla<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>blablabla@gmail.com<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>$2y$10$mUIeO0ioxQAb/x4NmPnma.GX57YbYD5lbcfD8rwpGkaqMECBK19ra<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:10:10<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:10:10<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
         <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">(<span class="pl-c1">3</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Tony<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>seper@gmail.com<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>$2y$10$tUOV7GyjO0Mr9406jLVpDOqbqz4yOmO3XTKGZoteaMD3sM0FQeH3O<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:31:44<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>2015-07-23 15:31:44<span class="pl-pds">&#39;</span></span>);</td>
       </tr>
       <tr>
         <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour les tables exportées</span></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
@@ -1004,8 +976,7 @@
       </tr>
       <tr>
         <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour les tables exportées</span></td>
       </tr>
       <tr>
         <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
@@ -1013,7 +984,8 @@
       </tr>
       <tr>
         <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour la table `tag_id`</span></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
@@ -1021,24 +993,24 @@
       </tr>
       <tr>
         <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour la table `tag_id`</span></td>
       </tr>
       <tr>
         <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code blob-code-inner js-file-line">  ADD <span class="pl-k">PRIMARY KEY</span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>);</td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span></td>
       </tr>
       <tr>
         <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">  ADD <span class="pl-k">PRIMARY KEY</span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>);</td>
       </tr>
       <tr>
         <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour la table `tweet_id`</span></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
@@ -1046,24 +1018,24 @@
       </tr>
       <tr>
         <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tweet_id<span class="pl-pds">`</span></span></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour la table `tweet_id`</span></td>
       </tr>
       <tr>
         <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code blob-code-inner js-file-line">  ADD <span class="pl-k">PRIMARY KEY</span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>);</td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tweet_id<span class="pl-pds">`</span></span></td>
       </tr>
       <tr>
         <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="LC93" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">  ADD <span class="pl-k">PRIMARY KEY</span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>);</td>
       </tr>
       <tr>
         <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
-        <td id="LC94" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour la table `users`</span></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
@@ -1071,24 +1043,24 @@
       </tr>
       <tr>
         <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- Index pour la table `users`</span></td>
       </tr>
       <tr>
         <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
-        <td id="LC97" class="blob-code blob-code-inner js-file-line">  ADD <span class="pl-k">PRIMARY KEY</span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>);</td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="LC98" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span></td>
       </tr>
       <tr>
         <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">  ADD <span class="pl-k">PRIMARY KEY</span> (<span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span>);</td>
       </tr>
       <tr>
         <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour les tables exportées</span></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
@@ -1096,8 +1068,7 @@
       </tr>
       <tr>
         <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="LC102" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour les tables exportées</span></td>
       </tr>
       <tr>
         <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
@@ -1105,7 +1076,8 @@
       </tr>
       <tr>
         <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="LC104" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour la table `tag_id`</span></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
@@ -1113,19 +1085,19 @@
       </tr>
       <tr>
         <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
-        <td id="LC106" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour la table `tag_id`</span></td>
       </tr>
       <tr>
         <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code blob-code-inner js-file-line">  MODIFY <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span> AUTO_INCREMENT;</td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tag_id<span class="pl-pds">`</span></span></td>
       </tr>
       <tr>
         <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour la table `tweet_id`</span></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">  MODIFY <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span> AUTO_INCREMENT;</td>
       </tr>
       <tr>
         <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
@@ -1133,19 +1105,19 @@
       </tr>
       <tr>
         <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tweet_id<span class="pl-pds">`</span></span></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour la table `tweet_id`</span></td>
       </tr>
       <tr>
         <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code blob-code-inner js-file-line">  MODIFY <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span> AUTO_INCREMENT;</td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="LC113" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>tweet_id<span class="pl-pds">`</span></span></td>
       </tr>
       <tr>
         <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour la table `users`</span></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">  MODIFY <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span> AUTO_INCREMENT;</td>
       </tr>
       <tr>
         <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
@@ -1153,23 +1125,31 @@
       </tr>
       <tr>
         <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line"><span class="pl-c">-- AUTO_INCREMENT pour la table `users`</span></td>
       </tr>
       <tr>
         <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code blob-code-inner js-file-line">  MODIFY <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span> AUTO_INCREMENT,AUTO_INCREMENT<span class="pl-k">=</span><span class="pl-c1">4</span>;</td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line"><span class="pl-c">--</span></td>
       </tr>
       <tr>
         <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="LC118" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */</span>;</td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line"><span class="pl-k">ALTER</span> <span class="pl-k">TABLE</span> <span class="pl-s"><span class="pl-pds">`</span>users<span class="pl-pds">`</span></span></td>
       </tr>
       <tr>
         <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="LC119" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */</span>;</td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">  MODIFY <span class="pl-s"><span class="pl-pds">`</span>id<span class="pl-pds">`</span></span> <span class="pl-k">int</span>(<span class="pl-c1">11</span>) <span class="pl-k">NOT NULL</span> AUTO_INCREMENT,AUTO_INCREMENT<span class="pl-k">=</span><span class="pl-c1">4</span>;</td>
       </tr>
       <tr>
         <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
-        <td id="LC120" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */</span>;</td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */</span>;</td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */</span>;</td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */</span>;</td>
       </tr>
 </table>
 
@@ -1210,7 +1190,7 @@
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.06868s from github-fe119-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.12848s from github-fe141-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
