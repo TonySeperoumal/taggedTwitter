@@ -1,5 +1,7 @@
 <?php
 
+	//url racine
+
 	// connexion à la base de données
 	define("DBHOST", "");
 	define("DBUSER", "");
