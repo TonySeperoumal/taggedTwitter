@@ -11,6 +11,28 @@
 
 			return $frenchDate;
 		}
+		
+		//pour l'envoi automatique des emails
+		function getConfiguredMailer(){
+			$mail = new PHPMailer;
+			//config de l'envoi
+			$mail->isSMTP();
+			$mail->setLanguage('fr');
+			$mail->CharSet = 'UTF-8';
+			//debug
+			$mail->SMTPDebug = 0;	//0 pour désactiver les infos de débug
+			$mail->Debugoutput = 'html';
+			//config du serveur smtp
+			$mail->Host = 'smtp.gmail.com';
+			$mail->Port = 587;
+			$mail->SMTPSecure = 'tls';
+			$mail->SMTPAuth = true;
+			$mail->Username = SMTPUSER;
+			$mail->Password = SMTPPASS;
+			//mail au format HTML
+			$mail->isHTML(true); 
+			return $mail;
+		}
 
 		//affiche un array dans une balise <pre>
 		function pr($table){
