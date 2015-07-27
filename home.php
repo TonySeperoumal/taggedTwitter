@@ -4,7 +4,7 @@
 	include('db_connexion.php');
 	include('fonctions.php');
 	include('vendor/autoload.php');
-	pr($_SESSION['user']);
+	
 	$messages = "";
 	$errorMessages = "";
 
@@ -33,7 +33,8 @@
 
 	$sql = "SELECT id, messages 
 		FROM tweets
-		ORDER BY date_created DESC";
+		ORDER BY date_created DESC
+		LIMIT 10";
 	$sth = $dbh->prepare($sql);
 	$sth->execute();
 	$tweets = $sth->fetchAll();
@@ -55,7 +56,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Document</title>	
 </head>
 <body>
 	<div class="container">
@@ -68,7 +69,10 @@
 				</label>
 			</form>
 		</div>
-		<div class="show">
+		<div class="result">
+			<h1 id="result"></h1>			
+		</div>
+		<div class="show-tweets">
 			<?php
 			foreach ($tweets as $tweet) {
 				?>
@@ -82,6 +86,18 @@
 		</div>		
 
 	</div>
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script>
+
+		$(window).on('load', function(){
+			$.ajax({
+				"url": "tags.php"
+			}).done(function(response){
+				$('#result').html(response);
+			});
+		});
+
+	</script>
 
 </body>
 </html>
