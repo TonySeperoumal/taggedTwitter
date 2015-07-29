@@ -37,7 +37,7 @@
 				
 					$factory = new RandomLib\Factory;
 					$generator = $factory->getGenerator(new SecurityLib\Strength(SecurityLib\Strength::MEDIUM));
-					$token = $generator->generateString(32, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-');
+					$token = $generator->generateString(255, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-');
 
 					$expiry = date("Y-m-d H:i:s", strtotime("+ 1 day"));
 
