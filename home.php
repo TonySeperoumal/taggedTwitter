@@ -7,10 +7,15 @@
 	
 	$messages = "";
 	$errorMessages = "";
+	$tag_id = "";
+	
 
 	if (!empty($_POST)){
 
 		$messages = trim(strip_tags($_POST['messages']));
+		$tag_id = trim(strip_tags($_POST['tag_id']));
+	
+
 
 		if (empty($messages)){
 			$errormessages = "Veuillez ecrire votre message !";
@@ -19,15 +24,16 @@
 			$errorTweet = "Votre message doit avoir entre 2 et 140 caractères !";
 		}
 		if ($errorMessages == ""){
-			$sql = "INSERT INTO tweets(id, user_id, messages, date_created, date_modified)
-					VALUES (NULL, :user_id, :messages, NOW(), NOW())";
+			$sql = "INSERT INTO tweets(id, user_id, tag_id, messages, date_created, date_modified)
+					VALUES (NULL, :user_id, :tag_id, :messages, NOW(), NOW())";
 			$sth = $dbh->prepare($sql);
 			$sth->bindValue(':messages', $messages);
 			$sth->bindValue(':user_id', $_SESSION['user']['id']);
+			$sth->bindValue(':tag_id' , $tag_id);			
 			$sth->execute();
 		}	
 
-		// pr($_POST);
+		
 
 	}
 
@@ -41,12 +47,12 @@
 	
 	// pr($tweets);
 
-	$sql = "SELECT users.username, tweets.messages
-			FROM users
-			LEFT JOIN tweets
-			ON users.id = tweets.user_id";
-	$sth = $dbh->prepare($sql);
-	$sth -> execute();
+	// $sql = "SELECT users.username, tweets.messages
+	// 		FROM users
+	// 		LEFT JOIN tweets
+	// 		ON users.id = tweets.user_id";
+	// $sth = $dbh->prepare($sql);
+	// $sth -> execute();
 	
 	
 
@@ -60,30 +66,35 @@
 </head>
 <body>
 	<div class="container">
+		<h1><?php echo $_SESSION['user']['username']; ?> connecté</h1>
 		<div class="create">
 			<form action="home.php" method="post">
 				<label for="messages">
-				<input class="form-control" type="text" value="<?php echo $messages; ?>" name="messages" id="messages">
-				<input type="submit" value="Ok">
+					<input class="form-control" type="text" value="<?php echo $messages; ?>" name="messages" id="messages">
+					<input type="submit" value="Ok"><span><a href="logout.php">Déconnexion</a></span>
 				<div class="help-block text-danger"><?php echo $errorMessages; ?></div>
+				</label>
+				<label for="tag_id">
+					<input type="hidden" name="tag_id" id="tag_id">	
 				</label>
 			</form>
 		</div>
-		<div class="result">
-			<h1 id="result"></h1>			
+		<div class="result">			
+			<h2 id="result"></h2>					
 		</div>
 		<div class="show-tweets">
 			<?php
 			foreach ($tweets as $tweet) {
 				?>
 				<div>
-					<h2><?php echo $tweet["messages"] ?></h2>
+					<p><?php echo $tweet["messages"] ?></p>
 					
 					<?php
 				}
 
 			?>
-		</div>		
+		</div>
+				
 
 	</div>
 	<script type="text/javascript" src="js/jQuery.js"></script>
@@ -96,6 +107,31 @@
 				$('#result').html(response);
 			});
 		});
+		window.setInterval(function(){
+			$.ajax({
+				"url": "tags.php"
+			}).done(function(response){
+				// console.log(response);
+				$('#result').html(response);
+			});
+		},2000);
+
+
+		$(window).on('load' , function(){
+			$.ajax({
+				"url": "tag_id.php"
+			}).done(function(response){
+				$('#tag_id').attr("value" , response);
+			});
+		});
+		window.setInterval(function(){
+			$.ajax({
+				"url": "tag_id.php"
+			}).done(function(response){
+				console.log(response);
+				$('#tag_id').attr("value" , response);
+			});
+		},2000);
 
 	</script>
 

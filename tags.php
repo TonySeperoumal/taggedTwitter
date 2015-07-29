@@ -21,7 +21,7 @@
 	
 	$sql = "SELECT name 
 			FROM tag
-			ORDER BY RAND() LIMIT 1";
+			WHERE current = 1";
 	$sth = $dbh->prepare($sql);
 	$sth->execute();
 
@@ -32,25 +32,10 @@
 	foreach ($tags as $tag) {
 			echo $tag;
 		}
-
-
-
-	// $current = "";
-
+	
 	
 
-	// $sql = "INSERT INTO tag(current, date_created, date_modified)
-	// 		VALUES (:current, NOW(), NOW())";
-	// $sth = $dbh->prepare($sql);	
-	// $sth->bindValue(':current', $current);
-	// $sth->execute();
-
 	
-
-
-
-
-
 
 		
 	
