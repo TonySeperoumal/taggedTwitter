@@ -208,5 +208,55 @@
             "faker",
             "fixtures"
         ]
+    },
+    {
+        "name": "abeautifulsite/simpleimage",
+        "version": "2.5.5",
+        "version_normalized": "2.5.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/claviska/SimpleImage.git",
+            "reference": "0e69996a1df1b4eda4d0e81c8aeef9c131f99772"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/0e69996a1df1b4eda4d0e81c8aeef9c131f99772",
+            "reference": "0e69996a1df1b4eda4d0e81c8aeef9c131f99772",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-04-08 19:53:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.5-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "abeautifulsite": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nazar Mokrynskyi",
+                "email": "nazar@mokrynskyi.com",
+                "homepage": "http://cleverstyle.org/",
+                "role": "Developer"
+            },
+            {
+                "name": "Cory LaViska",
+                "homepage": "http://www.abeautifulsite.net/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A PHP class that simplifies working with images"
     }
 ]
